@@ -30,8 +30,15 @@ Una vez tenemos instalado atom ya podemos abrirlo desde la aplicación o directa
 
     $ atom [nombre_fichero]
 
+##Instalación de Pandoc
 
+Pandoc es un traductor de Markdown a HTML. Para instalarlo nos debemos dirigir a la [página oficial][pandoc] y seguir los pasos dependiendo del sistema operativo. Una vez descargado el paquete correspondiente desde terminal o bien desde el centro de software.
+
+Una vez instalado, para darle uso sólo será necesario escribir en terminal, y dentro del directorio donde se encuentre el fichero markdown, lo siguiente:
+
+    $pandoc fichero.md -o fichero.html
 
 
 
 [git]: https://github.com
+[pandoc]:http://pandoc.org/installing.html

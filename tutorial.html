@@ -1,0 +1,22 @@
+<h1 id="tutorial-sobre-la-realización-de-la-práctica">Tutorial sobre la realización de la práctica</h1>
+<h2 id="instalación-de-git">Instalación de git</h2>
+<p>Para la instalación de git es necesario abrir una terminal y escribir el siguiente comando:</p>
+<pre><code>$ sudo apt-get install git</code></pre>
+<p>Una vez instalado debemos configurarlo con nuestro nombre y correo electrónico.</p>
+<pre><code>$ git config --global user.email &quot;mi_email@ejemplo.com&quot;
+$ git config --global user.name &quot;Mi Nombre&quot;</code></pre>
+<p>A continuación ya seremos capaces de iniciar git en cualquier directorio con el comando</p>
+<pre><code>$ git init</code></pre>
+<h2 id="abrir-cuenta-en-github">Abrir cuenta en GitHub</h2>
+<p>Para abrir una cuenta en github debemos dirigirnos a su página oficial <a href="https://github.com">github.com</a>, rellenar los datos que nos encontramos de usuario, email y contraseña y pinchar en <strong>&quot;Sign up for GitHub&quot;</strong></p>
+<h2 id="instalación-de-atom">Instalación de Atom</h2>
+<p>Sólo será necesario ejecutar estas sentencias:</p>
+<pre><code>$ sudo add-apt-repository ppa:webupd8team/atom
+$ sudo apt-get update
+$sudo apt-get install atom</code></pre>
+<p>Una vez tenemos instalado atom ya podemos abrirlo desde la aplicación o directamente por consola:</p>
+<pre><code>$ atom [nombre_fichero]</code></pre>
+<h2 id="instalación-de-pandoc">Instalación de Pandoc</h2>
+<p>Pandoc es un traductor de Markdown a HTML. Para instalarlo nos debemos dirigir a la <a href="http://pandoc.org/installing.html">página oficial</a> y seguir los pasos dependiendo del sistema operativo. Una vez descargado el paquete correspondiente desde terminal o bien desde el centro de software.</p>
+<p>Una vez instalado, para darle uso sólo será necesario escribir en terminal, y dentro del directorio donde se encuentre el fichero markdown, lo siguiente:</p>
+<pre><code>$pandoc fichero.md -o fichero.html</code></pre>
